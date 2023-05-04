@@ -8,7 +8,7 @@ import image4 from '../public/images/5.jpeg';
 export default function Main() {
   return (
     <>
-      <div className="container text-center mx-auto mb-36">
+      <div className="container text-center mx-auto mb-56">
         <div>
           <Image
             src={image1}
