@@ -3,7 +3,7 @@ import Image from 'next/image';
 import image5 from '../public/images/1.png';
 import image2 from '../public/images/4.png';
 import image3 from '../public/images/3.png';
-import image4 from '../public/images/5.jpeg';
+import image4 from '../public/images/5.JPEG';
 
 export default function Main() {
   return (
