@@ -4,6 +4,7 @@ import Logo from '../public/images/GBLogo.png';
 import Image from 'next/image';
 import HamburgerButton from '../public/images/hamburger.png';
 
+
 export default function Navbar() {
   return (
     <div className="flex justify-between shadow-xl bg-white h-14">

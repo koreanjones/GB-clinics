@@ -5,6 +5,7 @@ import image2 from '../public/images/4.png';
 import image3 from '../public/images/3.png';
 import image4 from '../public/images/BG5.png';
 
+
 export default function Main() {
   return (
     <>
