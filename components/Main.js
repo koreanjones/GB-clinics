@@ -9,13 +9,14 @@ import image4 from '../public/images/BG5.png';
 export default function Main() {
   return (
     <>
-      <div className="container text-center mx-auto mb-56">
+      <div className="container text-center mx-auto mb-36">
         <div>
           <Image
             src={image1}
             width={475}
             hjeight={75}
             className=" mx-auto mt-10"
+            alt="image"
           />
         </div>
 
@@ -23,7 +24,7 @@ export default function Main() {
         <p></p>
       </div>
       <div className="h-42 md:h-1">
-        <Image src={image4} width={1500} height={50} />
+        <Image src={image4} width={1500} height={50} alt="image" />
       </div>
       <div className="flex justify-between flex-col md:flex-row md:p-10 pt-10">
         <div className="md:w-[50%] text-center px-5 md:pt-10 rounded-xl shadow-2xl bg-white">
@@ -37,7 +38,13 @@ export default function Main() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <Image src={image3} width={250} height={250} className=" mx-auto" />
+          <Image
+            src={image3}
+            width={250}
+            height={250}
+            className="mx-auto"
+            alt="image"
+          />
         </div>
         <div className="flex flex-col md:flex-row md:w-[50%] justify-around md:px-10">
           <div className="">
@@ -46,6 +53,7 @@ export default function Main() {
               width={350}
               height={50}
               className="mt-10 mx-auto"
+              alt="image"
             />
           </div>
           <div className="">
@@ -54,6 +62,7 @@ export default function Main() {
               width={350}
               height={50}
               className="mt-5 mx-auto md:mt-64"
+              alt="image"
             />
           </div>
         </div>

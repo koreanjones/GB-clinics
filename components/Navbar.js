@@ -4,12 +4,11 @@ import Logo from '../public/images/GBLogo.png';
 import Image from 'next/image';
 import HamburgerButton from '../public/images/hamburger.png';
 
-
 export default function Navbar() {
   return (
     <div className="flex justify-between shadow-xl bg-white h-14">
       <div className="ml-10 my-auto">
-        <Image src={Logo} width={55} height={25} />
+        <Image src={Logo} width={55} height={25} alt="image" />
       </div>
       <div className="w-[60%] my-auto">
         <ul className="hidden md:flex justify-around ">
@@ -27,8 +26,8 @@ export default function Navbar() {
           </Link>
         </ul>
       </div>
-      <div className='md:hidden my-auto mr-10'>
-        <Image src={HamburgerButton} width={50} height={0} />
+      <div className="md:hidden my-auto mr-10">
+        <Image src={HamburgerButton} width={50} height={0} alt="image" />
       </div>
     </div>
   );
